@@ -1,0 +1,121 @@
+/* Base page styles */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Header styles */
+header {
+  background-color: #0d3c55;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: #f4d03f;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #1abc9c;
+}
+
+/* Main content grid */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Card component */
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  background-color: #0d3c55;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px 8px 0 0;
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Image & text pairing */
+.about-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-content img {
+  max-width: 120px;
+  border-radius: 6px;
+}
+
+/* Resource list */
+.resources {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.resources li {
+  margin-bottom: 0.5rem;
+}
+
+.resources a {
+  color: #0d3c55;
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #0d3c55;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem;
+}
+
+#lastModified {
+  color: #f4d03f;
+}

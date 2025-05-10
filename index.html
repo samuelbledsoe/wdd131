@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD = 131</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Samuel Bledsoe | Personal course landing page with resources and project information" />
+  <meta name="author" content="Samuel Bledsoe" />
+  <title>WDD 131 – Dynamic Web Fundamentals - Samuel Bledsoe</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    
+  <header>
+    <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Samuel Bledsoe</span></h1>
+    <nav>
+      <a href="https://www.linkedin.com/in/samuelbledsoe/">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41.title_number1,p10?lang=eng">Favorite Scripture</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div>
+          <p>Hello, my name is Samuel Bledsoe. I am from southern Illinois. I love to spend time with my family and learn new things. I am new to the world of technology and am very excited for what I will learn!</p>
+        </div>
+        <img src="images/profile.webp" alt="Your Profile Image" />
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Illinois, U.S.A.</h2>
+      <div class="about-content">
+        <img src="images/flag.jpg" alt="Illinois Flag Image" />
+        <div>
+          <p>Illinois is a diverse Midwestern state known for its blend of urban energy and rural charm. It's home to Chicago—America’s third-largest city—famous for its skyline, deep-dish pizza, blues music, and cultural landmarks. The state also includes fertile farmland, historic towns, and scenic river valleys. Illinois played a key role in U.S. history, especially during the Civil War era, and is proudly known as the "Land of Lincoln," honoring Abraham Lincoln, who spent much of his life there.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Web Dev Resources</h2>
+      <ul class="resources">
+        <li><a href="#">Dev.to Community</a></li>
+        <li><a href="#">Smashing Magazine</a></li>
+        <li><a href="#">CSS Tricks</a></li>
+        <li><a href="#">W3 Schools</a></li>
+        <li><a href="#">Udemy</a></li>
+        <li><a href="#">Image Placeholder</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Samuel Bledsoe - Illinois, USA</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
