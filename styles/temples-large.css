@@ -1,15 +1,16 @@
-/* Larger screen styles */
-nav {
-  display: flex !important;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
+@media screen and (min-width: 500px) {nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    }
 
-#menu {
-  display: none;
-}
+    #menu {
+    display: none;
+    }
 
-.grid-container {
-  grid-template-columns: repeat(3, 1fr);
+    .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    }
 }
