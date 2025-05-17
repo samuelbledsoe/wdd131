@@ -1,0 +1,18 @@
+@media screen and (min-width: 500px) {
+  /* Change header background to black and text to white */
+  header {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  header h1 {
+    color: #000000; /* override just the h1 to be black */
+  }
+
+  /* Change main to two equal columns */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two equal columns */
+    gap: 1rem; /* maintain spacing between columns */
+  }
+}
