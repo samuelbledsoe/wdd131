@@ -1,0 +1,15 @@
+/* Larger screen styles */
+nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#menu {
+  display: none;
+}
+
+.grid-container {
+  grid-template-columns: repeat(3, 1fr);
+}
