@@ -108,3 +108,10 @@ footer {
     border-radius: 5px;
   }
 }
+
+@media (min-width: 800px) {
+  .weather h2::after {
+    content: ' ⛅';
+    font-size: 1.2rem;
+  }
+}
