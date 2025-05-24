@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #009739;
+  --secondary-color: #ffcc29;
+  --accent-color: #002776;
+  --data-bg: rgba(255, 255, 255, 0.7);
+  --weather-bg: rgba(255, 255, 255, 0.7);
+  --text-color: #333;
+  --bg-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-container {
+  background-color: var(--primary-color);
+  padding: 0;
+  margin: 0;
+}
+
+picture {
+  display: block;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+
+main {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section.data, section.weather {
+  position: absolute;
+  padding: 1rem;
+  background-color: var(--data-bg);
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.data {
+  top: 1rem;
+  left: 1rem;
+}
+
+section.weather {
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--weather-bg);
+}
+
+section.data h2,
+section.weather h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+section.data p,
+section.weather p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+footer {
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  section.data,
+  section.weather {
+    position: static;
+    margin: 1rem auto;
+  }
+
+  section.data h2,
+  section.weather h2 {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brazil</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Explore Brazil</h1>
+  </header>
+
+  <main>
+    <div class="hero-container">
+      <picture>
+            <source srcset="images/brazil-big.webp" media="(min-width: 600px)">
+            <img src="images/brazil-small.webp" alt="Brazil Landscape">
+      </picture>
+
+      <section class="data">
+        <h2>Data</h2>
+        <p><strong>Area:</strong> 8,515,767 sq km</p>
+        <p><strong>Population:</strong> 214,000,000</p>
+        <p><strong>Capital:</strong> Brasília</p>
+        <p><strong>Languages:</strong> Portuguese</p>
+        <p><strong>Currency:</strong> Brazilian Real</p>
+        <p><strong>Time Zone:</strong> UTC−3</p>
+        <p><strong>Calling Code:</strong> +55</p>
+        <p><strong>Internet TLD:</strong> .br</p>
+      </section>
+
+      <section class="weather">
+        <h2>Weather ⛅</h2>
+        <img src="images/weather.svg" alt="Weather Icon">
+        <p><strong>Temperature:</strong> <span id="temperature">30</span> °C</p>
+        <p><strong>Conditions:</strong> Sunny</p>
+        <p><strong>Wind:</strong> <span id="wind-speed">10</span> km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windchill">Calculating...</span></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Samuel Bledsoe 🇧🇷 Brazil</p>
+    <p>Last Modified: <span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
