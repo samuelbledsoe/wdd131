@@ -88,7 +88,7 @@ const temples = [
     dedicated: "2019, March, 10",
     area: 41000,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome-temple-lds-1398374-wallpaper.jpg"
+      "htthttps://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/800%2C/0/default?lang=eng"
   },
   {
     templeName: "Philadelphia Pennsylvania",
