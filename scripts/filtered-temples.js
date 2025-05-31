@@ -75,29 +75,27 @@ const temples = [
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
   {
-    templeName: "Salt Lake City Utah",
-    location: "Salt Lake City, Utah, United States",
-    dedicated: "1893, April, 6",
-    area: 253015,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-temple/400x250/salt-lake-temple-lds-1067366-wallpaper.jpg"
-  },
-  {
-    templeName: "Rome Italy",
-    location: "Rome, Italy",
-    dedicated: "2019, March, 10",
-    area: 41000,
-    imageUrl:
-      "htthttps://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/800%2C/0/default?lang=eng"
-  },
-  {
-    templeName: "Philadelphia Pennsylvania",
-    location: "Philadelphia, Pennsylvania, United States",
-    dedicated: "2016, September, 18",
-    area: 61863,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/400x250/philadelphia-temple-lds-1417253-wallpaper.jpg"
-  }
+  templeName: "Salt Lake City Utah",
+  location: "Salt Lake City, Utah, United States",
+  dedicated: "1893, April, 6",
+  area: 253015,
+  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
+},
+{
+  templeName: "Rome Italy",
+  location: "Rome, Italy",
+  dedicated: "2019, March, 10",
+  area: 41000,
+  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
+},
+{
+  templeName: "Philadelphia Pennsylvania",
+  location: "Philadelphia, Pennsylvania, United States",
+  dedicated: "2016, September, 18",
+  area: 61863,
+  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/philadelphia-pennsylvania-temple/philadelphia-pennsylvania-temple-3351-main.jpg"
+}
+
 ];
 
 function renderTemples(filteredTemples) {
