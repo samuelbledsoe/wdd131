@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a website for my course project. It is a website to provide communication and coordination for service projects.">
+    <meta name="description" content="Service Project Connect - Site Plan">
     <meta name="author" content="Samuel Bledsoe">
     <title>Service Project Connect - Site Plan</title>
     <link rel="stylesheet" href="styles/servicesite.css">
-    <script src="scripts/servicesite.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 20px;
+        }
+        header, section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2e7d32; /* Primary dark green */
+        }
+        a {
+            color: #0288d1; /* Accent blue */
+        }
+        .wireframe img {
+            width: 100%;
+            max-width: 600px;
+            border: 2px dashed #2e7d32;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -45,17 +72,20 @@
     </section>
 
     <section>
-        <h2>Wireframes</h2>
-        <a href="../images/mobilewire.jpg" target="_blank">
-            <button>View Mobile Wireframe</button>
-        </a>
-        <a href="../images/largewire.jpg" target="_blank">
-            <button>View Desktop Wireframe</button>
-        </a>
+        <h2>Wireframe - Mobile View</h2>
+        <div class="wireframe">
+            <img src="../images/mobilewire.jpg" alt="A hand-drawn sketch of the Service Project Connect home page as seen on a mobile device. It includes a top header with the logo and navigation, a hero section with welcome text and a call-to-action button, a stacked list of upcoming service projects, a sign-up button, and a footer with contact information.">
+            <p>This wireframe illustrates the layout of the mobile view, showing a vertical, stacked design that is optimized for smaller screens and touch interaction.</p>
+        </div>
     </section>
 
-
-
+    <section>
+        <h2>Wireframe - Desktop View</h2>
+        <div class="wireframe">
+            <img src="../images/largewire.jpg" alt="A hand-drawn sketch of the Service Project Connect home page as seen on a desktop screen. It features a top header with the logo and horizontal navigation menu, a hero image with welcome text and a prominent call-to-action button, a main content area displaying upcoming projects in a grid layout, a sidebar with resources and tips, and a footer with contact information.">
+            <p>This wireframe shows the layout of the desktop view, providing a more spacious design with clear navigation and side content to enhance usability on larger screens.</p>
+        </div>
+    </section>
 
     <section>
         <h2>Testing</h2>
