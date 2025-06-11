@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register a new community service project.">
+    <meta name="author" content="Samuel Bledsoe">
+    <title>Register a Project - Service Project Connect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/servicesite.css">
+    <script src="scripts/register.js" defer></script>
+</head>
+<body>
+     <header>
+        <div class="banner-container">
+            <div class="banner-images left">
+                <img src="../images/service5.jpg" alt="Community project image 1" loading="lazy">
+                <img src="../images/service6.jpg" alt="Community project image 2" loading="lazy">
+            </div>
+            <div class="banner-center">
+                <img src="../images/logo.jpg" alt="Service Project Connect Logo" class="logo">
+                <h1>Service Project Connect</h1>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="references.html">References</a></li>
+                        <li><a href="register.html">Register a Project</a></li>
+                    </ul>
+                </nav>
+                <a href="volunteer.html" class="cta-button banner-volunteer-button">Volunteer Now</a>
+            </div>
+            <div class="banner-images right">
+                <img src="../images/service7.jpg" alt="Community project image 3" loading="lazy">
+                <img src="../images/service8.jpg" alt="Community project image 4" loading="lazy">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Register Your Project Here!</h2>
+        </section>
+        <form id="registerForm">
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" name="projectName" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="">Select Category</option>
+                <option value="Environment">Environment</option>
+                <option value="Social">Social</option>
+                <option value="Education">Education</option>
+            </select>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="contactPerson">Contact Person:</label>
+            <input type="text" id="contactPerson" name="contactPerson" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit Project</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Service Project Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
